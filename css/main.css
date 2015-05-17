@@ -1,0 +1,63 @@
+html {
+  box-sizing: border-box; }
+
+*,
+*::after,
+*::before {
+  box-sizing: inherit; }
+
+/* $body-font: $roboto;
+
+body {
+  font-family: $body-font;
+  font-size: 1em;
+  font-weight: 100;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  margin-bottom: 1em;
+} */
+* {
+  margin: 0; }
+
+h1, h2, h3, h4, h5, h6, p {
+  margin-bottom: 30px; }
+
+html {
+  height: 100%;
+  overflow: hidden;
+  background: url("../img/treepic.png");
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  height: 100%; }
+
+body {
+  height: 100%;
+  overflow-y: scroll;
+  overflow-x: hidden;
+  perspective: 1px;
+  transform-style: preserve-3d; }
+
+section {
+  position: relative;
+  min-height: 100%;
+  padding: 10% 15%;
+  box-sizing: border-box;
+  transform-style: inherit; }
+
+#home {
+  font-family: "Roboto", sans-serif;
+  color: white;
+  font-size: 50px;
+  font-weight: 100;
+  stroke-width: 3px;
+  text-align: center; }
+
+#content {
+  min-height: 10%;
+  padding: 5%;
+  background-color: rgba(255, 255, 255, 0.5);
+  margin: 0 auto;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5); }
