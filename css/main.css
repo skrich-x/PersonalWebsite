@@ -47,17 +47,24 @@ section {
   box-sizing: border-box;
   transform-style: inherit; }
 
+#logo img {
+  width: 600px; }
+
 #home {
   font-family: "Roboto", sans-serif;
   color: white;
+  background-color: rgba(255, 255, 255, 0.5);
   font-size: 50px;
   font-weight: 100;
   stroke-width: 3px;
   text-align: center; }
 
+#home h6 {
+  font-size: 24px; }
+
 #content {
-  min-height: 10%;
-  padding: 5%;
+  min-height: 20%;
+  padding: 20%;
   background-color: rgba(255, 255, 255, 0.5);
   margin: 0 auto;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.5); }
